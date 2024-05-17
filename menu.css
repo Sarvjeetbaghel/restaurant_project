@@ -1,0 +1,65 @@
+/* menu.css */
+
+body {
+    font-family: Arial, sans-serif; /* Sets the font for the entire body */
+    background-color: #f7f7f7; /* Light grey background color for the page */
+    color: #333; /* Dark grey color for text */
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333; /* Dark background for the header */
+    color: #fff; /* White text color for the header */
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .dish {
+    width: 300px; /* Width of each dish block */
+    margin: 15px;
+    background-color: #fff; /* White background for the dishes */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Adds shadow to dish blocks */
+    border-radius: 8px; /* Rounded corners for dish blocks */
+    overflow: hidden;
+  }
+  
+  .dish img {
+    width: 100%; /* Makes image take full width of the .dish block */
+    height: 200px; /* Fixed height for images */
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+  }
+  
+  .dish h2 {
+    padding: 10px 15px;
+    margin: 0;
+    background-color: #333; /* Dark background for titles */
+    color: #fff; /* White text color for titles */
+  }
+  
+  .dish p {
+    padding: 5px 15px;
+    margin: 0;
+    line-height: 1.6; /* Spacing between lines */
+  }
+  
+  a {
+    display: block;
+    text-align: center;
+    margin: 20px;
+    color: #333; /* Dark grey text for the link */
+    text-decoration: none; /* No underline for the link */
+  }
+  
+  a:hover {
+    text-decoration: underline; /* Adds underline on hover for the link */
+  }
+  
+
